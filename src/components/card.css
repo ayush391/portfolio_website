@@ -9,50 +9,54 @@ body {
   left: 50%;
   /* top: 50%; */
   transform: translate(-50%);
-  height: 40vh;
+  height: 50vh;
   width: 30vw;
   min-width: 350px;
-  background: #a3be8c00
+  background: #4c566a;
+  
+  /* background: #4c566a50 */
   ;
   overflow: hidden;
   border-radius: 20px;
   cursor: pointer;
-  box-shadow: 0 0 20px 8px #00000021;
+  box-shadow: 0 0 20px 8px #00000050;
 }
 
 .content {
   position: absolute;
   top: 50%;
   transform: translatey(-50%);
-  text-align: justify;
   color: white;
   padding: 40px;
-  font-family: 'Merriweather', serif;
+  
+  /* font-family: 'Merriweather', serif; */
 }
 
 h1 {
-  font-weight: 900;
-  text-align: center;
+    font-weight: 900;
+    text-align: center;
 }
 
 h3 {
   font-weight: 300;
+  
 }
 
 .flap {
-  width: 100%;
+    width: 100%;
   height: 100%;
 }
 
 .flap::before {
-  position: absolute;
+    position: absolute;
   content: "";
   height: 100%;
   width: 50%;
   left:0;
-  background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg")  #bf616a;
-  background-position: 100px;
-  background-repeat: no-repeat;
+  background: url("../assets/dots.png")  #a3be8c;
+  background-position: 0px;
+  background-repeat: repeat;
+  background-size:30%;
   transition: 1s;
 }
 
@@ -62,9 +66,14 @@ h3 {
   height: 100%;
   width: 50%;
   right: 0;
-  background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg")  #bf616a;
-  background-position: -200px;
-  background-repeat: no-repeat;
+  background: url("../assets/dots.png")  #a3be8c;
+  /* filter: blur(2px); */
+  /* background-position: -100px; */
+  background-position: -10px;
+  background-repeat:round;
+  background-size:30%;
+
+  /* background-repeat: no-repeat; */
   transition: 1s;
 }
 
@@ -74,4 +83,35 @@ h3 {
 
 .container:hover .flap::before{
   transform: translatex(-300px);
+}
+
+
+@media (hover: none) and (pointer: coarse){
+    .flap{
+        display: none;
+
+    }
+
+    .container{
+        /* background-color: #a3be8c; */
+    }
+}
+
+
+.subject{
+    color: #d08770;
+    font-weight: bolder;
+    
+}
+
+.institute{
+    color:#ebcb8b;
+    font-weight: bolder;
+    
+}
+
+.duration{
+    color:#b48ead;
+    font-weight: bolder;
+    
 }

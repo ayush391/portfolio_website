@@ -1,3 +1,11 @@
-.card-div{
-  transform: translatey(50%);
+.card-div {
+    /* transform: translatey(50%); */
+}
+
+@media (hover: none) and (pointer: coarse) {
+
+
+    .hover-to-see {
+        display: none;
+    }
 }

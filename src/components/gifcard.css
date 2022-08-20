@@ -1,0 +1,37 @@
+.gif-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    /* max-height: 50vh; */
+    background-color: #4c566a;
+    border-radius: 3vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    box-shadow: 0 0 20px 8px #00000021;
+}
+
+.gif img{
+    /* float: left */
+    width: 30rem;
+}
+.gif-content {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+
+    margin-left: 2vw;
+    align-items: center!important;
+
+    /* float: left; */
+}
+
+.gif-content .title{
+    margin: 1rem;
+    color: #d08770;
+    /* float: left; */
+}
+
+

@@ -1,3 +1,4 @@
+import { red } from '@mui/material/colors';
 import React from 'react'
 import './card.css'
 export const Card = (props) => {
@@ -6,10 +7,18 @@ export const Card = (props) => {
             
         <div class="container">
             <div class="content">
-                <h1>Ayush</h1>
-                <h3>I love designing websites and keep things as simple as possible. My goals is to focus on minimalism and conveying the message that you want to send</h3>
+                <h1  class='title'>{props.title}</h1>
+                <br></br>
+                <h3 class='subject'>{props.subject}</h3>
+                <br></br>
+
+                <h3  class='institute'>{props.institute}</h3>
+                <br></br>
+
+                <h3  class='duration'>{props.duration}</h3>
             </div>
             <div class="flap"></div>
+
         </div>
         </div>
     )

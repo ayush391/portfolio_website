@@ -1,6 +1,8 @@
-*{
+* {
   margin: 0;
+  padding: 0;
 }
+
 .App {
   text-align: center;
 }
@@ -46,21 +48,31 @@
 
 section#header {
   transform: translatey(0);
-  height: 100vh;
+  /* background: linear-gradient( #f9932a, #b1452a); */
+  /* padding-top:5vh; */
+  /* padding-bottom:5vh; */
+  /* height: 100vh; */
 
 }
 
 section#about {
-  height: 100vh;
-
+  /* height: 100vh; */
+  margin-top: 10vh;
+  padding-top:5vh;
+  padding-bottom:5vh;
   background-color: #a3be8c;
+  
+    /* background-color: #a3be8c; */
 }
 
-section#projects{
+section#projects {
   background-color:  #b48ead ;
-  height: 100vh;
-
+  /* height: 100vh; */
+  margin-top: 10vh;
+  padding-top:5vh;
+  padding-bottom:5vh;
 }
+
 
 
 .section-title {
@@ -68,3 +80,9 @@ section#projects{
   margin-bottom: 5vh;
 }
 
+
+@media (hover: none) and (pointer: coarse) {
+  section#about {
+    /* background-color: #a3be8c; */
+  }
+}

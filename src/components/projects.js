@@ -1,5 +1,11 @@
+import { Grid } from '@mui/material'
 import React from 'react'
 import gif from '../assets/tom-ching-cheng-hanji.gif'
+import GifCard from './gifcard'
+
+import college_website_gif from '../assets/website-college-demo.GIF'
+import scraper_website_gif from '../assets/scraper_demo.GIF'
+
 export const Projects = () => {
     return (
         <div>
@@ -9,9 +15,19 @@ export const Projects = () => {
                     <div class='section-title'>
                         <h1>PROJECTS</h1>
                     </div>
-                    <img src={gif}></img>
-                    <img src={gif}></img>
-                    <img src={gif}></img>
+                    <Grid justifyContent="center" rowSpacing={4}>
+                        <Grid item>
+                            <GifCard gif={scraper_website_gif} title="Scholar Web Scraper" desc="I developed a tool to search all the researchers from IITs, NITs and IIITs in a given field. Technologies like BeautifulSoup and Django were used in the project."></GifCard>
+
+                        </Grid>
+                        <Grid item>
+                            <GifCard gif={college_website_gif}title="College Website(GCET Jammu)" desc="Me along with two of my college friends, were tasked by our college to revamp the website of our college. I was in charge of the design and front end of the website. I used Bootstrap and React to create the front end. The backend was created using Firebase and Javascript."></GifCard>
+
+                        </Grid>
+                        
+                    </Grid>
+
+
                 </div >
             </section>
 
