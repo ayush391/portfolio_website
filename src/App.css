@@ -1,3 +1,6 @@
+*{
+  margin: 0;
+}
 .App {
   text-align: center;
 }
@@ -32,7 +35,34 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+
+section#header {
+  transform: translatey(0);
+  height: 100vh;
+
+}
+
+section#about {
+  height: 100vh;
+  background-color: #a3be8c;
+}
+
+section#projects{
+  background-color:  #b48ead ;
+  height: 100vh;
+
+}
+
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 5vh;
 }
