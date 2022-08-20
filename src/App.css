@@ -47,17 +47,18 @@
 
 
 section#header {
-  transform: translatey(0);
+  /* transform: translatey(0); */
   /* background: linear-gradient( #f9932a, #b1452a); */
   /* padding-top:5vh; */
   /* padding-bottom:5vh; */
   /* height: 100vh; */
+  max-height: max-content;
 
 }
 
 section#about {
   /* height: 100vh; */
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
   padding-top:5vh;
   padding-bottom:5vh;
   background-color: #a3be8c;
@@ -68,7 +69,7 @@ section#about {
 section#projects {
   background-color:  #b48ead ;
   /* height: 100vh; */
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
   padding-top:5vh;
   padding-bottom:5vh;
 }

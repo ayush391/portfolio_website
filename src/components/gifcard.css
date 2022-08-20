@@ -16,11 +16,15 @@
     /* float: left */
     width: 30rem;
 }
+.gif{
+
+    
+}
 .gif-content {
     text-align: left;
     display: flex;
     flex-direction: column;
-    max-width: 50vw;
+    max-width: 50rem;
 
     margin-left: 2vw;
     align-items: center!important;
@@ -34,6 +38,20 @@
     color:  #b48ead ;
 
     /* float: left; */
+}
+
+@media screen and (max-width:1000px) {
+    .gif-container{
+        display: block;
+    }
+    
+    .gif img{
+        width: 20rem;
+    }
+    .gif-content{
+        text-align: center;
+
+    }
 }
 
 
