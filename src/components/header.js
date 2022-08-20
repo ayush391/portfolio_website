@@ -28,11 +28,11 @@ export const Header = () => {
               <GitHubIcon fontSize='large'></GitHubIcon>
             </a>
 
-            <a href='https://github.com/ayush391'>
+            <a href='https://leetcode.com/ayush391'>
               <CodeIcon fontSize='large'></CodeIcon>
             </a>
 
-            <a href='https://github.com/ayush391'>
+            <a href='https://www.linkedin.com/in/ayush-kapoor-69330a202/'>
               <LinkedInIcon fontSize='large'></LinkedInIcon>
             </a>
 
