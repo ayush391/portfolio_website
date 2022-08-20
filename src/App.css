@@ -52,6 +52,7 @@ section#header {
 
 section#about {
   height: 100vh;
+
   background-color: #a3be8c;
 }
 
@@ -66,3 +67,4 @@ section#projects{
   font-size: 2rem;
   margin-bottom: 5vh;
 }
+

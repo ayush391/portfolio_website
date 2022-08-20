@@ -18,10 +18,18 @@ code {
 }
 
 
-@media screen and (max-width: 428px)  {
-  body{
 
-    font-size: 10vw;
-  }
-  
+@media screen and (max-width: 550px) {
+  html {
+    /* background-color: red; */
+     font-size: 15px; }
+}
+@media screen and (max-width: 400px) {
+  html {
+    /* background-color: red; */
+     font-size: 12px; }
+}
+
+@media (min-width: 551px) {
+  html { font-size: 20px; }
 }
