@@ -30,7 +30,9 @@
 
 .gif-content .title{
     margin: 1rem;
-    color: #d08770;
+    /* color: #d08770; */
+    color:  #b48ead ;
+
     /* float: left; */
 }
 

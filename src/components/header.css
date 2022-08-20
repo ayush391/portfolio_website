@@ -3,6 +3,25 @@
     box-shadow: 0 0 20px 8px #00000050;
 
 }
+.socials{
+    margin-top: 2rem;
+
+}
+
+.socials a{
+    padding: 3rem;
+    color:white;
+    transition: all .5s ease;
+    
+}
+
+.socials a:hover{
+    /* transform: scale(1.2); */
+    color:#bf616a;
+}
+
+
+
 
 .dp-container{
     position: relative;

@@ -3,6 +3,10 @@ import './header.css'
 
 import DP from '../assets/dp.jpg'
 
+import GitHubIcon from '@mui/icons-material/GitHub';
+import CodeIcon from '@mui/icons-material/Code';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
 export const Header = () => {
   return (
     <div>
@@ -19,11 +23,26 @@ export const Header = () => {
             <h2 class='name'>Ayush Kapoor</h2>
             <h4 class='subtitle'>Web Developer</h4>
           </div>
+          <div class='socials'>
+            <a href='https://github.com/ayush391'>
+              <GitHubIcon fontSize='large'></GitHubIcon>
+            </a>
+
+            <a href='https://github.com/ayush391'>
+              <CodeIcon fontSize='large'></CodeIcon>
+            </a>
+
+            <a href='https://github.com/ayush391'>
+              <LinkedInIcon fontSize='large'></LinkedInIcon>
+            </a>
+
+          </div>
           <div class='header-text'>
             <h1>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              Hey there! My Name is Ayush and I am a very passionate web developer from Jammu, India. I love building everything from small business sites to rich interactive web apps. Currently, I am looking for a Job as a Web Developer in a reputable company. My goal in life is to keep upskilling myself and solving complex problems.
             </h1>
           </div>
+
         </div>
 
       </section>
