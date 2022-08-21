@@ -15,6 +15,8 @@
 .gif img{
     /* float: left */
     width: 30rem;
+    border: 7px solid #b48ead;
+    border-radius: 20px;
 }
 .gif{
 
