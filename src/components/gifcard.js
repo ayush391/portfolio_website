@@ -12,7 +12,7 @@ export const GifCard = (props) => {
                 <div class="gif-container">
 
                     <div class="gif">
-                        <img src={props.gif}></img>
+                        <img loop='1' src={props.gif}></img>
                     </div>
 
                     <div class="gif-content">

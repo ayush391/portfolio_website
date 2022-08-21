@@ -15,7 +15,7 @@ export const About = () => {
           <Grid container justifyContent="center" spacing={{xs:3, md:2}} columns={{xs:1, md:12}} rows={{ xs: 3, md: 1 }}>
             <Grid item xs={1} md={4}>
               <Card title="Bachelor of Engineering" institute="Govt. College of Engineering & Technology, Jammu
-" duration="2018-2022" subject="Computer Engineering"></Card>
+" duration="2018-2022" subject="Computer Engineering" marks='75'></Card>
               <br></br>
 
             <h2 class='hover-to-see'>Hover To See</h2>
@@ -23,7 +23,7 @@ export const About = () => {
             </Grid>
             <Grid item xs={1} md={4}>
               <Card title="Senior Secondary (XII)" institute="Maharishi Vidya Mandir, Sainik Colony,Jammu
-" duration="2017-2018" subject="Science & Maths"></Card>
+" duration="2017-2018" subject="Science & Maths" marks='90'></Card>
               <br></br>
 
             <h2 class='hover-to-see'>Hover To See</h2>
@@ -31,7 +31,7 @@ export const About = () => {
             </Grid>
             <Grid item xs={1} md={4}>
               <Card title="Secondary (X)" institute="Maharishi Vidya Mandir, Sainik Colony,Jammu
-" duration="2015-2016" subject="Science & Maths"></Card>
+" duration="2015-2016" subject="Science & Maths" marks='93'></Card>
               <br></br>
 
             <h2 class='hover-to-see'>Hover To See</h2>

@@ -10,6 +10,7 @@ export const Card = (props) => {
                 <h1  class='title'>{props.title}</h1>
                 <br></br>
                 <h3 class='subject'>{props.subject}</h3>
+                <h4  class='marks'>Marks = {props.marks}%</h4>
                 <br></br>
 
                 <h3  class='institute'>{props.institute}</h3>
