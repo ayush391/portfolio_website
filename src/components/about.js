@@ -18,7 +18,7 @@ export const About = () => {
 " duration="2018-2022" subject="Computer Engineering" marks='75'></Card>
               <br></br>
 
-            <h2 class='hover-to-see'>Hover To See</h2>
+            {/* <h2 class='hover-to-see'>Hover To See</h2> */}
 
             </Grid>
             <Grid item xs={1} md={4}>
@@ -26,7 +26,7 @@ export const About = () => {
 " duration="2017-2018" subject="Science & Maths" marks='90'></Card>
               <br></br>
 
-            <h2 class='hover-to-see'>Hover To See</h2>
+            {/* <h2 class='hover-to-see'>Hover To See</h2> */}
 
             </Grid>
             <Grid item xs={1} md={4}>
@@ -34,7 +34,7 @@ export const About = () => {
 " duration="2015-2016" subject="Science & Maths" marks='93'></Card>
               <br></br>
 
-            <h2 class='hover-to-see'>Hover To See</h2>
+            {/* <h2 class='hover-to-see'>Hover To See</h2> */}
 
             </Grid>
 

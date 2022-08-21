@@ -1,6 +1,13 @@
 import { red } from '@mui/material/colors';
 import React from 'react'
 import './card.css'
+
+const flap = document.getElementsByClassName('flap');
+
+// flap.addEventListener('mouseenter',(event)=>{
+    
+// })
+
 export const Card = (props) => {
     return (
         <div>
@@ -18,7 +25,8 @@ export const Card = (props) => {
 
                 <h3  class='duration'>{props.duration}</h3>
             </div>
-            <div class="flap"></div>
+            {/* <div class="cup"></div> */}
+            {/* <div class="flap"></div> */}
 
         </div>
         </div>

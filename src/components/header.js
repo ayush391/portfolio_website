@@ -2,6 +2,9 @@ import React from 'react'
 import './header.css'
 
 import DP from '../assets/dp.jpg'
+import DP2 from '../assets/dp_ayush.jpg'
+import DP3 from '../assets/dp_ayush_filter.png'
+import DP4 from '../assets/dp_ayush_filter2.png'
 
 import GitHubIcon from '@mui/icons-material/GitHub';
 import CodeIcon from '@mui/icons-material/Code';
@@ -17,22 +20,22 @@ export const Header = () => {
 
         </div>
         <div class='dp-container'>
-          <img class='rounded dp' src={DP}></img>
+          <img class='rounded dp' src={DP4}></img>
 
           <div class='dp-text'>
             <h2 class='name'>Ayush Kapoor</h2>
             <h4 class='subtitle'>Web Developer</h4>
           </div>
           <div class='socials'>
-            <a href='https://github.com/ayush391'>
+            <a target='_blank' href='https://github.com/ayush391'>
               <GitHubIcon fontSize='large'></GitHubIcon>
             </a>
 
-            <a href='https://leetcode.com/ayush391'>
+            <a target='_blank' href='https://leetcode.com/ayush391'>
               <CodeIcon fontSize='large'></CodeIcon>
             </a>
 
-            <a href='https://www.linkedin.com/in/ayush-kapoor-69330a202/'>
+            <a target='_blank' href='https://www.linkedin.com/in/ayush-kapoor-69330a202/'>
               <LinkedInIcon fontSize='large'></LinkedInIcon>
             </a>
 

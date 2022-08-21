@@ -31,6 +31,8 @@
 .dp {
     width: 50vw;
     max-width: 400px;
+    /* position: absolute */
+    /* left: 20px; */
 }
 
 .dp-text{
@@ -49,8 +51,8 @@
 }
 
 .banner{
-    background: url('../assets/banner_gif.gif') ;
-    background-position: center 40%;
+    background: url('../assets/ign_unsplash25.png') ;
+    background-position: center 60%;
     background-size:cover;
     background-repeat: no-repeat;
     /* height: 350px; */
@@ -61,8 +63,8 @@
 }
 @media screen and (max-width:550px) {
     .banner{
-        background: url('../assets/banner2.png');
-        background-size: contain;
+        /* background: url('../assets/banner2.png'); */
+        background-size: cover;
         /* background-position: 30% 80%; */
         height:15rem;
 

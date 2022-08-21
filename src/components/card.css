@@ -4,13 +4,18 @@ body {
   /* background: #f2f2f2; */
 }
 
+.root{
+  --before:0px;
+  --after:-10px;
+}
+
 .container  {
   position: relative;
   left: 50%;
   /* top: 50%; */
   transform: translate(-50%);
-  height: 50vh;
-  width: 30vw;
+  height: 30rem;
+  width: 21rem;
   min-width: 350px;
   background: #4c566a;
   
@@ -22,12 +27,19 @@ body {
   box-shadow: 0 0 20px 8px #00000050;
 }
 
+.content:hover{
+  transform: scale(1.1);
+}
+
 .content {
   position: absolute;
+  transition: 1s all;
+  z-index: 1;
+
   top: 50%;
   transform: translatey(-50%);
   color: white;
-  padding: 40px;
+  padding: 2rem;
   
   /* font-family: 'Merriweather', serif; */
 }
@@ -45,6 +57,7 @@ h3 {
 .flap {
     width: 100%;
   height: 100%;
+  display: none;
 }
 
 .flap::before {
@@ -54,7 +67,8 @@ h3 {
   width: 50%;
   left:0;
   background: url("../assets/dots.png")  #a3be8c;
-  background-position: 0px;
+  /* background-position: 0px; */
+  background-position: var(--before);
   background-repeat: repeat;
   background-size:30%;
   transition: 1s;
@@ -68,8 +82,9 @@ h3 {
   right: 0;
   background: url("../assets/dots.png")  #a3be8c;
   /* filter: blur(2px); */
-  /* background-position: -100px; */
-  background-position: -10px;
+  
+  /* background-position: -10px; */
+  background-position: var(--after);
   background-repeat:round;
   background-size:30%;
 
@@ -79,10 +94,12 @@ h3 {
 
 .container:hover .flap::after {
   transform: translatex(300px);
+  --after:300px;
 }
 
 .container:hover .flap::before{
   transform: translatex(-300px);
+  --before:-300px;
 }
 
 
@@ -114,4 +131,47 @@ h3 {
     color:#b48ead;
     font-weight: bolder;
     
+}
+
+
+
+
+
+/* ==========Animation========== */
+.cup {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30rem;
+  height: 21rem;
+  /* border: 6px solid #262626;
+  border-top: 2px solid transparent;
+  border-radius: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; */
+  background: url(https://image.ibb.co/fmHm66/wave.png) ;
+  background-position: 0px 75px;
+  background-repeat: repeat-x;
+  animation: filling 30s infinite;
+  /* box-shadow: 0 0 0 6px #fff, 0 20px 35px rgba(0,0,0,1); */
+}
+
+.cup:before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 80px;
+  z-index: -1;
+  /* border: 6px solid #fff; */
+  right: -57px;
+  top: 30px;
+  /* border-top-right-radius: 35px; */
+  /* border-bottom-right-radius: 35px; */
+}
+
+@keyframes filling {
+  50% {background-position: 3000px 0px;}
+  75% {background-position: 4500px 100px;}
+  100% {background-position: 6000px 75px;}
 }
