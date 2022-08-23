@@ -2,8 +2,18 @@ import React from 'react'
 import './gifcard.css'
 import gif from '../assets/tom-ching-cheng-hanji.gif'
 import { Grid } from '@mui/material'
-import { Container } from '@mui/system'
+import { Container } from '@mui/system';
 
+function renderDemoButton(demo_link) {
+    if (demo_link) {
+        return <div class='btn'>
+            <a href={demo_link} target="_blank">Live Demo</a>
+        </div>
+    }
+    else {
+        <h1></h1>
+    }
+}
 export const GifCard = (props) => {
     return (
         <div>
@@ -20,11 +30,14 @@ export const GifCard = (props) => {
                         <h3 class="desc">
                             {props.desc}
                         </h3>
+
+
+                        {renderDemoButton(props.demo_link)}
                     </div>
                 </div>
 
-            </Container>
-        </div>
+            </Container >
+        </div >
     )
 }
 

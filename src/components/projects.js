@@ -23,7 +23,7 @@ export const Projects = () => {
 
                         </Grid>
                         <Grid item>
-                            <GifCard gif={college_website_gif}title="College Website(GCET Jammu)" desc="Me along with two of my college friends, were tasked by our college to revamp the website of our college. I was in charge of the design and front end of the website. I used Bootstrap and React to create the front end. The backend was created using Firebase and Javascript."></GifCard>
+                            <GifCard demo_link='https://college-website-52b15.web.app/' gif={college_website_gif}title="College Website(GCET Jammu)" desc="Me along with two of my college friends, were tasked by our college to revamp the website of our college. I was in charge of the design and front end of the website. I used Bootstrap and React to create the front end. The backend was created using Firebase and Javascript."></GifCard>
 
                         </Grid>
                         <Grid item>
@@ -32,7 +32,8 @@ export const Projects = () => {
                         </Grid>
 
                         <Grid item>
-                            <GifCard gif={portfolio_website}title="This Website 😜" desc="This website was made using React, Material UI, HTML and CSS"></GifCard>
+                            <GifCard demo_link=' https://ayush391.github.io/portfolio_website/
+' gif={portfolio_website}title="This Website 😜" desc="This website was made using React, Material UI, HTML and CSS"></GifCard>
 
                         </Grid>
                         
