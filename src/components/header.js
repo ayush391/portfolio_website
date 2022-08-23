@@ -42,8 +42,11 @@ export const Header = () => {
           </div>
           <div class='header-text'>
             <h1>
-              Hey there! My Name is Ayush and I am a very passionate web developer from Jammu, India. I love building everything from small business sites to rich interactive web apps. Currently, I am looking for a Job as a Web Developer in a reputable company. My goal in life is to keep upskilling myself and solving complex problems.
+            Highly Motivated web developer looking for a role as full-stack web developer. Passionate about building first-class web applications. Developed an visually appealing and higly functional website for my college (GCET, Jammu). Relevant skills include React, Javascript, HTML/CSS, and more.
             </h1>
+            {/* <h1>
+              Hey there! My Name is Ayush and I am a very passionate web developer from Jammu, India. I love building everything from small business sites to rich interactive web apps. Currently, I am looking for a Job as a Web Developer in a reputable company. My goal in life is to keep upskilling myself and solving complex problems.
+            </h1> */}
           </div>
 
         </div>
