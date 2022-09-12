@@ -44,7 +44,79 @@
 }
 
 
+.banner {
+  background: url('./assets/banner_gif_med.gif');
+  background-position: center 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 350px; */
+  height: 25rem;
 
+  /* filter: blur(5px); */
+
+}
+
+
+
+
+@media screen and (max-width:550px) {
+  .banner {
+    /* background: url('../assets/banner2.png'); */
+    background-size: cover;
+    /* background-position: 30% 80%; */
+    height: 15rem;
+
+
+  }
+
+  div.b {
+    position: sticky;
+    margin-top: -8rem;
+  }
+
+
+}
+
+@media screen and (min-width:551px) {
+  .banner {
+    /* background: url('../assets/banner2.png'); */
+    background-size: cover;
+    /* background-position: 30% 80%; */
+    height: 15rem;
+
+
+  }
+
+  div.b {
+    position: sticky;
+    margin-top: -8rem;
+    /* margin-bottom: -13rem!important; */
+    /* overflow: hidden; */
+  }
+
+
+}
+
+
+@media screen and (min-width:800px) {
+  .banner {
+    /* background: url('../assets/banner2.png'); */
+    background-size: cover;
+    /* background-position: 30% 80%; */
+    height: 25rem;
+
+
+  }
+
+  div.b {
+    position: sticky;
+    margin-top: -13rem;
+    /* margin-bottom: -13rem!important; */
+    /* overflow: hidden; */
+  }
+
+
+}
 
 section#header {
   /* transform: translatey(0); */
@@ -52,33 +124,34 @@ section#header {
   /* padding-top:5vh; */
   /* padding-bottom:5vh; */
   /* height: 100vh; */
-  max-height: max-content;
+  /* max-height: max-content; */
 
 }
 
 section#about {
   /* height: 100vh; */
   /* margin-top: 10vh; */
-  padding-top:5vh;
-  padding-bottom:5vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
   background-color: #a3be8c;
-  
-    /* background-color: #a3be8c; */
+
+  /* background-color: #a3be8c; */
 }
 
 section#projects {
-  background-color:  #b48ead ;
+  background-color: #b48ead;
   /* height: 100vh; */
   /* margin-top: 10vh; */
-  padding-top:5vh;
-  padding-bottom:5vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 
 
 .section-title {
   font-size: 2rem;
-  margin-bottom: 5vh;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
 }
 
 
