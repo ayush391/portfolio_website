@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio_website/static/css/main.6ef3e8fc.css",
-    "main.js": "/portfolio_website/static/js/main.1040e5ed.js",
+    "main.css": "/portfolio_website/static/css/main.5e228595.css",
+    "main.js": "/portfolio_website/static/js/main.acdc46e8.js",
     "static/js/787.749b4a44.chunk.js": "/portfolio_website/static/js/787.749b4a44.chunk.js",
-    "static/media/scraper_demo.GIF": "/portfolio_website/static/media/scraper_demo.b371ba753b89ba79eb4a.GIF",
-    "static/media/website-college-demo.GIF": "/portfolio_website/static/media/website-college-demo.e66d886cd2ab7321958e.GIF",
-    "static/media/video_chat_demo.webp": "/portfolio_website/static/media/video_chat_demo.fb7b45c40d0559f7a936.webp",
-    "static/media/portfolio_website.webp": "/portfolio_website/static/media/portfolio_website.67cc7bf403ae1729f453.webp",
+    "static/media/video-chat-demo.gif": "/portfolio_website/static/media/video-chat-demo.6effbe9918bc1f568fe4.gif",
     "static/media/banner_gif_med.gif": "/portfolio_website/static/media/banner_gif_med.08a7c02305eb4638c960.gif",
-    "static/media/tom-ching-cheng-hanji.gif": "/portfolio_website/static/media/tom-ching-cheng-hanji.f1fd55d66a4c761ad750.gif",
+    "static/media/scraper-demo.gif": "/portfolio_website/static/media/scraper-demo.0b79fb3f25ef2e2abf83.gif",
+    "static/media/website-college-demo.gif": "/portfolio_website/static/media/website-college-demo.a70c7392d5b57c58ea19.gif",
+    "static/media/portfolio-demo.gif": "/portfolio_website/static/media/portfolio-demo.48b5bff3ec3aacce871b.gif",
+    "static/media/bill-app-demo.gif": "/portfolio_website/static/media/bill-app-demo.0276d4c1daa8f898a948.gif",
     "static/media/dp_ayush_filter.png": "/portfolio_website/static/media/dp_ayush_filter.957b56ea0de06a761a27.png",
     "static/media/dp_ayush_filter2.png": "/portfolio_website/static/media/dp_ayush_filter2.4a27c7da7c5706f46e72.png",
     "static/media/dp.jpg": "/portfolio_website/static/media/dp.1310d0c7302f4f570e95.jpg",
     "static/media/dp_ayush.jpg": "/portfolio_website/static/media/dp_ayush.210fed2b8fdcbd25928c.jpg",
     "static/media/logo.svg": "/portfolio_website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/portfolio_website/index.html",
-    "main.6ef3e8fc.css.map": "/portfolio_website/static/css/main.6ef3e8fc.css.map",
-    "main.1040e5ed.js.map": "/portfolio_website/static/js/main.1040e5ed.js.map",
+    "main.5e228595.css.map": "/portfolio_website/static/css/main.5e228595.css.map",
+    "main.acdc46e8.js.map": "/portfolio_website/static/js/main.acdc46e8.js.map",
     "787.749b4a44.chunk.js.map": "/portfolio_website/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ef3e8fc.css",
-    "static/js/main.1040e5ed.js"
+    "static/css/main.5e228595.css",
+    "static/js/main.acdc46e8.js"
   ]
 }
