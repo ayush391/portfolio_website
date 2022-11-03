@@ -1,7 +1,5 @@
 import React from 'react'
 import './gifcard.css'
-import gif from '../assets/tom-ching-cheng-hanji.gif'
-import { Grid } from '@mui/material'
 import { Container } from '@mui/system';
 
 function renderDemoButton(demo_link) {
@@ -27,6 +25,7 @@ export const GifCard = (props) => {
 
                     <div class="gif-content">
                         <h1 class="title">{props.title}</h1>
+                        <h3 class="skill">{props.skill}</h3>
                         <h3 class="desc">
                             {props.desc}
                         </h3>

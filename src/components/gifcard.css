@@ -35,9 +35,16 @@
 }
 
 .gif-content .title{
-    margin: 1rem;
+    margin: 0.2rem;
     /* color: #d08770; */
     color:  #b48ead ;
+
+    /* float: left; */
+}
+.gif-content .skill{
+    margin: 0.2rem;
+    /* color: #d08770; */
+    color:  #a3be8c ;
 
     /* float: left; */
 }

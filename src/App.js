@@ -11,10 +11,9 @@ function App() {
       <div class='banner'>
       </div>
       <div className='b'>
-
         <Header></Header>
-        <About></About>
         <Projects></Projects>
+        <About></About>
         <Footer></Footer>
       </div>
     </div>
