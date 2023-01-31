@@ -3,6 +3,7 @@ import React from 'react'
 import GifCard from './gifcard'
 
 import college_website_gif from '../assets/website-college-demo.gif'
+import blog_app_gif from '../assets/blog-app-demo.gif'
 import scraper_website_gif from '../assets/scraper-demo.gif'
 import video_chat_demo from '../assets/video-chat-demo.gif'
 import portfolio_website from '../assets/portfolio-demo.gif'
@@ -18,6 +19,10 @@ export const Projects = () => {
                         <h1>PROJECTS</h1>
                     </div>
                     <Grid justifyContent="center" rowSpacing={4}>
+                        <Grid item>
+                            <GifCard demo_link='https://jocular-youtiao-1a8b03.netlify.app/' gif={blog_app_gif} title="Blogging Website" skill="React, Nodejs, Javascript, Material UI" desc="A blogging website with material design, authorization features and CRUD functionality."></GifCard>
+
+                        </Grid>
                         <Grid item>
                             <GifCard demo_link='https://college-website-52b15.web.app/' gif={college_website_gif} title="College Website(GCET Jammu)" skill="React, Firebase, Javascript" desc="A visual as well as functional of my college's website done using React, Firebase and Javascript."></GifCard>
 
